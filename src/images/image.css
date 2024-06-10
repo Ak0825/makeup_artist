@@ -1,0 +1,62 @@
+.project-area {
+    position: relative;
+}
+.single-awesome-project {
+    float: left;
+    overflow: hidden;
+    width:100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.awesome-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.awesome-img img{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.single-awesome-project:hover .awesome-img img{
+    transform: scale(1);
+    transition: 0.4s;
+}
+.awesome-img > a {
+    display: block;
+    position: relative;
+}
+.single-awesome-project:hover .awesome-img > a::after{
+    opacity: 1;
+}
+.single-awesome-project:hover .add-actions{
+    opacity: 1;
+}
+.awesome-img > a::after {
+    background: rgba(0,0,0,0.70) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.awesome-img .vbox-item .i {
+    position: absolute;
+    left: 44%;
+    right: 0;
+    z-index: 88;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    top: 50%;
+    margin-top: -15px;
+    opacity: 0;
+    font-weight: 100;
+}
+.single-awesome-project:hover .awesome-img .vbox-item .i{
+    opacity: 1;
+}

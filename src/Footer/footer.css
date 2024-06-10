@@ -1,0 +1,120 @@
+.footer-area {
+  padding: 100px 0;
+  background: #10100e;
+}
+.footer-logo {
+  margin-bottom: 20px;
+}
+.footer-head h4 {
+  color: #fff;
+  font-size: 22px; 
+  text-transform: capitalize;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+.footer-icons ul li {
+  display: inline-block;
+}
+.footer-icons ul li .icon {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  line-height: 33px;
+  text-align: center;
+  margin-right: 5px;
+  border: 1px solid #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  transition: 0.4s;
+  padding: 5px;
+}
+.footer-contact li {
+    
+  margin-top: -15px;
+}
+.footer-icons ul li .icon:hover {
+  color: #fff;
+  border: 1px solid #d7b474;
+  background: #d7b474;
+  transition: 0.4s;
+}
+.footer-tags li a:hover {
+  color: #d7b474;
+}
+.footer-contact li a {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 300;
+}
+.footer-contact li:last-child a {
+  margin-bottom: 0px;
+}
+.footer-contact li a i {
+  font-size: 16px;
+  margin-right: 10px;
+  line-height: 34px;
+  color: #d7b474;
+}
+.subs-feilds {
+  /* background: #1c1c1c; */
+  text-align: start;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+.suscribe-input input {
+  border: medium none;
+  color: #777;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 6px 15px;
+  height: 46px;
+  border-radius: 0;
+  width: 66%;
+  float: left;
+  background: #0c0c0b;
+}
+.suscribe-input button {
+  background: #d7b474;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 5px;
+  width: 34%;
+  height: 46px;
+  border-left: 1px solid #d7b474;
+}
+.footer-icons {
+  margin-top: 20px;
+}
+.footer-list {
+  width: 50%;
+  float: left;
+}
+.footer-contacts p span {
+  color: #d7b474;
+  font-weight: 700;
+}
+.footer-area-bottom {
+  background: #0c0c0b none repeat scroll 0 0;
+  padding: 25px 0;
+}
+.copyright-text a:hover {
+  text-decoration: underline;
+  color: #d7b474;
+}
+.copyright-text a {
+  color: #fff;
+}
+.copyright > p {
+  margin-bottom: 0;
+  color: #fff;
+}
+.copyright a {
+  color: #d7b474;
+}

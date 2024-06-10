@@ -1,0 +1,20 @@
+.home2{
+    color: rgb(22, 130, 167);
+}
+.home_back{
+    background-color: black;
+    /* height: 500px; */
+    overflow: hidden;
+}
+.wel{ 
+    font-size: 8rem;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.wel_sub{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  

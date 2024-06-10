@@ -1,0 +1,94 @@
+.single-services {
+    margin-bottom: 30px;
+    position: relative;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+.section-headline h3 {
+    font-size: 38px;
+    color: #ddd;
+    margin-bottom: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.top-head {
+    text-transform: uppercase;
+    color: #D7B474;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.top-head::before {
+    position: absolute;
+    content: "";
+    top: 13px;
+    background: #D7B474;
+    width: 40px;
+    height: 1px;
+    left: -50px;
+}
+.top-head::after {
+    position: absolute;
+    content: "";
+    top: 13px;
+    background: #D7B474;
+    width: 40px;
+    height: 1px;
+    right: -50px;
+}
+.services-content {
+    padding: 30px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: #131313;
+}
+.services-content h4 {
+    text-align: start;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    padding-left: 15px;
+    font-weight: 400;
+}
+.services-content h4::after {
+    position: absolute;
+    content: "";
+    background: #D7B474;
+    width: 40px;
+    height: 40px;
+    left: -6px;
+    top: -12px;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.single-services:hover .services-content h4::after{
+    transition: 0.5s;
+    top: -4px;
+    left: 0;
+}
+.services-btn:hover{
+    color: #D7B474;
+}
+.services-image{
+    overflow: hidden;
+}
+.services-image img{
+    position: relative;
+    transform: scale(1);
+    display: block;
+    transition: 0.5s;
+}
+.single-services:hover .services-image img{
+    position: relative;
+    transform: scale(1.1);
+    display: block;
+    transition: 0.5s;
+}
